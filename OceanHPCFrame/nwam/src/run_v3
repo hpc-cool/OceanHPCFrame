@@ -1,0 +1,1 @@
+mpirun -x LD_LIBRARY_PATH -x UCX_NET_DEVICES=roceroh1:1 -np 1 ../nwam_v3
