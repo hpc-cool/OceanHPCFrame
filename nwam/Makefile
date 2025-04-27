@@ -10,8 +10,6 @@ DEBUG		?= 0
 minimake?= 0
 defmake ?= irrp
 NJ      ?= -j 10
-hpctooldir ?= /pacific_fs/HPCKit/latest
-hpcthirddir?= /pacific_fs/HPCKit/third
 LIBNETCDF  ?=-lnetcdf -lnetcdff
 ifeq ($(DEBUG),1)
 	CDEBUG=-g -DDEBUG
